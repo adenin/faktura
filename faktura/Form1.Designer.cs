@@ -44,10 +44,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_znovuNacitat = new System.Windows.Forms.Button();
+            this.btn_zmaz = new System.Windows.Forms.Button();
+            this.btn_vytvorFakturu = new System.Windows.Forms.Button();
+            this.btn_presunDoSprac = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -181,53 +181,53 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "znovu nacitat";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_znovuNacitat.Location = new System.Drawing.Point(13, 11);
+            this.btn_znovuNacitat.Name = "button1";
+            this.btn_znovuNacitat.Size = new System.Drawing.Size(125, 23);
+            this.btn_znovuNacitat.TabIndex = 16;
+            this.btn_znovuNacitat.Text = "znovu nacitat";
+            this.btn_znovuNacitat.UseVisualStyleBackColor = true;
+            this.btn_znovuNacitat.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(167, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "zmaz";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_zmaz.Location = new System.Drawing.Point(167, 12);
+            this.btn_zmaz.Name = "button2";
+            this.btn_zmaz.Size = new System.Drawing.Size(75, 23);
+            this.btn_zmaz.TabIndex = 17;
+            this.btn_zmaz.Text = "zmaz";
+            this.btn_zmaz.UseVisualStyleBackColor = true;
+            this.btn_zmaz.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(167, 324);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(125, 23);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "vytvor fakturu";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_vytvorFakturu.Location = new System.Drawing.Point(167, 324);
+            this.btn_vytvorFakturu.Name = "button3";
+            this.btn_vytvorFakturu.Size = new System.Drawing.Size(125, 23);
+            this.btn_vytvorFakturu.TabIndex = 18;
+            this.btn_vytvorFakturu.Text = "vytvor fakturu";
+            this.btn_vytvorFakturu.UseVisualStyleBackColor = true;
+            this.btn_vytvorFakturu.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(276, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(164, 23);
-            this.button4.TabIndex = 19;
-            this.button4.Text = "presun do spracovanych";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_presunDoSprac.Location = new System.Drawing.Point(276, 11);
+            this.btn_presunDoSprac.Name = "button4";
+            this.btn_presunDoSprac.Size = new System.Drawing.Size(164, 23);
+            this.btn_presunDoSprac.TabIndex = 19;
+            this.btn_presunDoSprac.Text = "presun do spracovanych";
+            this.btn_presunDoSprac.UseVisualStyleBackColor = true;
+            this.btn_presunDoSprac.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 406);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_presunDoSprac);
+            this.Controls.Add(this.btn_vytvorFakturu);
+            this.Controls.Add(this.btn_zmaz);
+            this.Controls.Add(this.btn_znovuNacitat);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -269,10 +269,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_znovuNacitat;
+        private System.Windows.Forms.Button btn_zmaz;
+        private System.Windows.Forms.Button btn_vytvorFakturu;
+        private System.Windows.Forms.Button btn_presunDoSprac;
     }
 }
 
