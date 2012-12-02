@@ -10,6 +10,8 @@ using System.IO;
 using System.Xml.XPath;
 using System.Diagnostics;
 
+
+
 namespace faktura
 {
 
@@ -25,10 +27,11 @@ namespace faktura
         public Form1()
         {
             InitializeComponent();
-            cestaKFakturam = @"c:\Users\kme6647\Dropbox\fak\";
-            cestaKXmlkam = @"c:\Users\kme6647\Downloads\";
+            string homePath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            cestaKFakturam = homePath + @"\Dropbox\fak\";
+            cestaKXmlkam = homePath+ @"\Downloads\";
 
-
+            
             zobraz();
 
 
